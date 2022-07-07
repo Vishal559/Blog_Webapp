@@ -7,8 +7,9 @@ import Settings from "./pages/settings/settings";
 import Login from "./pages/login/login";
 import Register from "./pages/Register/register";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Context } from "./context/Context"
+
 
 
 
